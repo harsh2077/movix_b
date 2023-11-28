@@ -1,0 +1,8 @@
+i have updated many features :
+updated database table users and add feedback and likedreviews table 
+added a footer on the bottom with many links 
+added dark mode view 
+added a user profile image option
+added a feedback form
+added option to like a review 
+made diffrent layout and strucutre by css
