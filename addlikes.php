@@ -1,13 +1,10 @@
-<?php
-// addlikes.php
-
+<?php 
 session_start();
 require_once('includes/database.php');
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $user_id = $_SESSION['id'];
-    $review_id = $_GET['review_id'];
-
+    $review_id = $_GET['review_id'];  
     $check_like_query = "SELECT * FROM liked_reviews WHERE like_user_id = $user_id AND like_review_id = $review_id";
     $check_like_result = $conn->query($check_like_query);
 
@@ -18,9 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     } else {
         $remove_like_query = "DELETE FROM liked_reviews WHERE like_user_id = $user_id AND like_review_id = $review_id";
         $conn->query($remove_like_query);
-    }
-
-    // Redirect back to the reviews page
+    } 
     header("Location: reviews.php");
     exit;
 } else {
