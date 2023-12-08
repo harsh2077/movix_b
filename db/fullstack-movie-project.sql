@@ -1,14 +1,4 @@
-# ************************************************************
-# Sequel Pro SQL dump
-# Version 4096
-#
-# http://www.sequelpro.com/
-# http://code.google.com/p/sequel-pro/
-#
-# Host: 127.0.0.1 (MySQL 5.5.38-0ubuntu0.14.04.1)
-# Database: Prutor
-# Generation Time: 2014-12-16 06:10:03 +0000
-# ************************************************************
+
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
